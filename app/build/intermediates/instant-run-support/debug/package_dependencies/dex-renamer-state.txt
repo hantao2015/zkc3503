@@ -1,0 +1,22 @@
+#Sat Aug 26 22:03:23 CST 2017
+renamed.6=classes4.dex
+renamed.5=classes2.dex
+renamed.4=classes3.dex
+renamed.3=classes7.dex
+renamed.2=classes.dex
+renamed.1=classes5.dex
+renamed.0=classes6.dex
+base.6=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.0.0_bd3149b8881505cbf888ea45216b63b8495288f4
+base.5=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_d806569ccd04d71c2b9441adf1f40afe2f060e07
+base.4=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.0.0_209e4775583d295420ea917d2c621f867f40e3d1
+base.3=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\litepal-1.6.0-src_d53ab50e4e050181d26d9d7e3c893a764f2799e5
+base.2=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_2da177d52de8afd00411496ba7e661d406ca6efd
+base.1=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\android-async-http-1.4.5_ca9837bdf6a2edc7a61bba33bfe102f80ecdc1e8
+base.0=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\fastjson-1.1.37_bba08fbfcfd0ca9dfbd476643c9a2de775d3dd60
+file.6=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-22.0.0_bd3149b8881505cbf888ea45216b63b8495288f4\\classes.dex
+file.5=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_d806569ccd04d71c2b9441adf1f40afe2f060e07\\classes.dex
+file.4=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-22.0.0_209e4775583d295420ea917d2c621f867f40e3d1\\classes.dex
+file.3=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\litepal-1.6.0-src_d53ab50e4e050181d26d9d7e3c893a764f2799e5\\classes.dex
+file.2=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_2da177d52de8afd00411496ba7e661d406ca6efd\\classes.dex
+file.1=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\android-async-http-1.4.5_ca9837bdf6a2edc7a61bba33bfe102f80ecdc1e8\\classes.dex
+file.0=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\fastjson-1.1.37_bba08fbfcfd0ca9dfbd476643c9a2de775d3dd60\\classes.dex

@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w600dp-v13\\values-w600dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\values-w600dp-v13\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 279,
+                        "endColumn": 63,
+                        "endOffset": 338
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 54,
+                    "endOffset": 169
+                },
+                "from": {
+                    "file": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\values-w600dp-v13\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 343,
+                        "endColumn": 54,
+                        "endOffset": 393
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\raw\\beep.ogg",
+        "source": "C:\\github\\andriodWebPos\\AndriodPos\\app\\src\\main\\res\\raw\\beep.ogg"
+    },
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\raw\\scan.ogg",
+        "source": "C:\\github\\andriodWebPos\\AndriodPos\\app\\src\\main\\res\\raw\\scan.ogg"
+    },
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\raw\\camera_click.ogg",
+        "source": "C:\\github\\andriodWebPos\\AndriodPos\\app\\src\\main\\res\\raw\\camera_click.ogg"
+    },
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\raw\\bide.ogg",
+        "source": "C:\\github\\andriodWebPos\\AndriodPos\\app\\src\\main\\res\\raw\\bide.ogg"
+    }
+]

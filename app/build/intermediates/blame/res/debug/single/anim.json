@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\anim\\abc_fade_out.xml"
+    }
+]
