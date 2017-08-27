@@ -36,12 +36,12 @@
         "source": "C:\\Users\\hantao\\.android\\build-cache\\be720e90e31ac361b922e92303fff8348d5d2220\\output\\res\\drawable-xxhdpi\\abc_spinner_ab_pressed_holo_dark.9.png"
     },
     {
-        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_list_focused_holo.9.png",
-        "source": "C:\\Users\\hantao\\.android\\build-cache\\be720e90e31ac361b922e92303fff8348d5d2220\\output\\res\\drawable-xxhdpi\\abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_menu_hardkey_panel_holo_dark.9.png",
         "source": "C:\\Users\\hantao\\.android\\build-cache\\be720e90e31ac361b922e92303fff8348d5d2220\\output\\res\\drawable-xxhdpi\\abc_menu_hardkey_panel_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\hantao\\.android\\build-cache\\be720e90e31ac361b922e92303fff8348d5d2220\\output\\res\\drawable-xxhdpi\\abc_list_focused_holo.9.png"
     },
     {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_list_longpressed_holo.9.png",
@@ -226,6 +226,10 @@
     {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_list_divider_holo_dark.9.png",
         "source": "C:\\Users\\hantao\\.android\\build-cache\\be720e90e31ac361b922e92303fff8348d5d2220\\output\\res\\drawable-xxhdpi\\abc_list_divider_holo_dark.9.png"
+    },
+    {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\abc_spinner_ab_default_holo_light.9.png",

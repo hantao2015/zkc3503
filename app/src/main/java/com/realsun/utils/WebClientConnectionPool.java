@@ -66,7 +66,7 @@ public  static void TryCreateWebClientConnection(WebDbConfig m_wdbc, final WebCo
 				super.onSuccess(statusCode, headers, response);
 				WebClientConnection wcc=new WebClientConnection();
 				if (statusCode == 200) {
-					// 获取用户id
+
 					 
 					final String OpResult,SessionId;
 					try {
@@ -90,9 +90,6 @@ public  static void TryCreateWebClientConnection(WebDbConfig m_wdbc, final WebCo
 					}
 
 				} else {
-					// 服务器异常
-					 
-				 
 				}
 			}
 });

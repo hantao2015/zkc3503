@@ -37,14 +37,16 @@ public class ConnectionChangeReceiver extends BroadcastReceiver {
 					// TODO Auto-generated method stub
 					systemwcc=wcc;
 					if (systemwcc.OpResult.equals("Y")){
+
 						
-				    	 Toast.makeText(context,"系统服务登入成功",Toast.LENGTH_LONG).show();
+				    	 Toast.makeText(context,R.string.loginsuccess,Toast.LENGTH_LONG).show();
+
 				    	 loginsystem=true;
 				    	
 				    }
 				    else
 				    {
-				    	 Toast.makeText(context,"系统服务登入失败:"+systemwcc.ErrorMsg,Toast.LENGTH_LONG).show();
+				    	 Toast.makeText(context,R.string.loginfailed+systemwcc.ErrorMsg,Toast.LENGTH_LONG).show();
 				    	 loginsystem=false;
 				    }
 				
@@ -53,11 +55,7 @@ public class ConnectionChangeReceiver extends BroadcastReceiver {
 	 public void logoutService(Context context)
 	    {
 		    systemwcc=new WebClientConnection();
-		    
-		    Toast.makeText(context,"系统服务登入失败: 没有网络",Toast.LENGTH_LONG).show();
 		    loginsystem=false;
-		   
-		   
 	    }
 	    
 	
@@ -71,7 +69,6 @@ public class ConnectionChangeReceiver extends BroadcastReceiver {
 		if (activeNetInfo != null && activeNetInfo.isAvailable()) {
 		 
 			connectionFla = true;
-			//系统登入web服务
 			loginService(context);
 			
 			 

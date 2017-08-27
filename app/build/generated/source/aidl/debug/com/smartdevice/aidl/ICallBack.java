@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: C:\\github\\andriodWebPos\\AndriodPos\\app\\src\\main\\aidl\\com\\smartdevice\\aidl\\ICallBack.aidl
+ * Original file: H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\src\\main\\aidl\\com\\smartdevice\\aidl\\ICallBack.aidl
  */
 package com.smartdevice.aidl;
 public interface ICallBack extends android.os.IInterface

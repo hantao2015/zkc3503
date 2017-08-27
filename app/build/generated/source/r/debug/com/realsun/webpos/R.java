@@ -1463,24 +1463,19 @@ containing a value of this type.
         public static final int downloaddata=0x7f060011;
         public static final int hello_world=0x7f060012;
         public static final int login=0x7f060013;
-        public static final int netwrok_tishi=0x7f060014;
-        public static final int put_card=0x7f060015;
-        public static final int service_bind_fail=0x7f060016;
-        public static final int service_bind_success=0x7f060017;
+        public static final int loginfailed=0x7f060014;
+        public static final int loginsuccess=0x7f060015;
+        public static final int netwrok_tishi=0x7f060016;
+        public static final int put_card=0x7f060017;
+        public static final int service_bind_fail=0x7f060018;
+        public static final int service_bind_success=0x7f060019;
     }
     public static final class style {
         public static final int Animation_AppCompat_DropDownUp=0x7f07006b;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static final int AppBaseTheme=0x7f070003;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f07006c;
         public static final int Base_Animation_AppCompat_DropDownUp=0x7f07006d;
         public static final int Base_TextAppearance_AppCompat=0x7f07002a;
