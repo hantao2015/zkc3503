@@ -10,6 +10,8 @@ import org.apache.http.Header;
 import com.alibaba.fastjson.JSON;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
+import com.realsun.finisar.bus.biz.BusLine;
+import com.realsun.finisar.bus.model.PersonBusLine;
 import com.realsun.utils.CmsDatabase;
 import com.realsun.utils.ConnectionChangeReceiver;
 import com.realsun.utils.NetRestClient;
@@ -18,6 +20,7 @@ import com.realsun.utils.WebClientConnectionPool;
 import com.realsun.utils.WebConnectionNotifier;
 import com.realsun.utils.WebDbConfig;
 
+import com.realsun.webpos.biz.BaseObjectNotify;
 import com.realsun.webpos.model.*;
 import com.realsun.webpos.webclient.DataResult;
 import com.realsun.webpos.webclient.GetDatatableParm;
@@ -85,6 +88,9 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 
 	public ConnectionChangeReceiver mConnectivityReceiver = ConnectionChangeReceiver
 			.getInstence();
+	private Button getbuslineButton;
+	private EditText textCardno;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -92,6 +98,8 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 		setContentView(R.layout.activity_main);
 		loginButton=(Button)findViewById(R.id.login);
 		downloadButton=(Button)findViewById(R.id.download);
+		getbuslineButton=(Button)findViewById(R.id.getBusline);
+		textCardno=(EditText)findViewById(R.id.inputCardno);
 		listView = (ListView) findViewById(R.id.listView1);
 		promt = (TextView) findViewById(R.id.promt);
 		// 获取默认的NFC控制器
@@ -251,8 +259,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 										processIntent(getIntent());
 									}
 								} catch (IOException e) {
-									Toast.makeText(MainActivity.this, "Please put the tags on the equipment behind",
-											3000).show();
+									//Toast.makeText(MainActivity.this, "Please put the tags on the equipment behind", 3000).show();
 									// TODO Auto-generated catch block
 									e.printStackTrace();
 								} finally {
@@ -369,8 +376,13 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 //					list.add(new Nfc(j, 0, "Sector " + j + ": Authentication Failed", j));
 //				}
 //			}
-			SupermakerBill bill = PrinterHelper.getInstance(this).getSupermakerBill(mIzkcService, false, false);
-			PrinterHelper.getInstance(this).printPurchaseBillModelOne(mIzkcService,bill, imageType);
+			try{
+				SupermakerBill bill = PrinterHelper.getInstance(this).getSupermakerBill(mIzkcService, false, false);
+				PrinterHelper.getInstance(this).printPurchaseBillModelOne(mIzkcService,bill, imageType);}
+			catch (Exception ex){
+
+			}
+
 			promt.setText(metaInfo);
 			NfcsAdapter adapter = new NfcsAdapter(list, getApplicationContext());
 
@@ -400,7 +412,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 
 				if (mConnectivityReceiver.getInstence().loginsystem )
 				{
-//				testofsqlit();
+			//testofsqlit();
 //				testofwebdata();
 
 				}
@@ -416,11 +428,35 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 				break;
 
 			}
+			case R.id.getBusline:{
+				String cardno=textCardno.getText().toString();
+				BusLine busLine=new BusLine("557161190994","C3_557158818161='"+cardno+"'");
+				WebClientConnection wcc = ConnectionChangeReceiver.getInstence().systemwcc;
+                final PersonBusLine psersonbusline=new PersonBusLine();
+				busLine.getObjectByWhere(wcc, PersonBusLine.class, new BaseObjectNotify() {
+					@Override
+					public void result(String strJson ) {
+						PersonBusLine personBusLine=new PersonBusLine();
+						personBusLine=JSON.parseObject(strJson, PersonBusLine.class);
+						showBusline( personBusLine);
+					}
+				});
+
+				break;
+			}
+
 
 
 		}
 
+
 	}
+	private void showBusline(PersonBusLine busline)
+	{
+		Toast.makeText(this, busline.getBusline(), Toast.LENGTH_LONG).show();
+
+	}
+
 	private void downloadData(final GetDatatableParm getDataParm,final WebDataService wds, final ArrayList data,final int diff,boolean endofrows ){
 
 		final WebClientConnection wcc = ConnectionChangeReceiver.getInstence().systemwcc;
@@ -544,7 +580,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 		// showToast(mConnectivityReceiver.systemwcc.OpResult);
 		SQLiteDatabase db = LitePal.getDatabase();
 		try{
-			String sql="create index i_posorders_cardno on PosOrders(cardno)";
+			String sql="create index i_posorders_cardno on PosOrder(cardno)";
 			db.execSQL(sql);}
 		catch (Exception e) {
 			e.printStackTrace();
@@ -596,6 +632,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 
 		loginButton.setOnClickListener(this);
 		downloadButton.setOnClickListener(this);
+		getbuslineButton.setOnClickListener(this);
 
 	}
 
