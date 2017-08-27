@@ -27,29 +27,27 @@ import java.util.Set;
 public class JsonUtil {
 
     /**
-     * 将java bean实例对象转换为JSon字符串
-     *
-     * @return 转换后的字符串
+
      */
 	
 	  public static  Object fromJsonToJava(JSONObject json,Class pojo) throws Exception{  
-        // 首先得到pojo所定义的字段  
+
         Field [] fields = pojo.getDeclaredFields();  
-        // 根据传入的Class动态生成pojo对象  
+
         Object obj = pojo.newInstance();  
         for(Field field: fields){  
-            // 设置字段可访问（必须，否则报错）  
+
             field.setAccessible(true);  
-            // 得到字段的属性名  
+
             String name = field.getName();  
-            // 这一段的作用是如果字段在JSONObject中不存在会抛出异常，如果出异常，则跳过。  
+
             try{  
                     json.get(name);  
             }catch(Exception ex){  
                 continue;  
             }  
             if(json.get(name) != null && !"".equals(json.getString(name))){  
-                // 根据字段的类型将值转化为相应的类型，并设置到生成的对象中。  
+
                 if(field.getType().equals(Long.class) || field.getType().equals(long.class)){  
                     field.set(obj, Long.parseLong(json.getString(name)));  
                 }else if(field.getType().equals(String.class)){  
@@ -69,66 +67,64 @@ public class JsonUtil {
     }  
     public static String obj2json(Object obj) {
         Class objClazz = obj.getClass();
-//        Log.i("ZF", objClazz.getName());
-        if (obj instanceof String) {                                    //字符串类型
+
+        if (obj instanceof String) {
             return "\"" + obj.toString() + "\"";
-        } else if (obj instanceof Character) {                          //字符型
-           // return "\"" + String.valueOf(( ) obj) + "\"";
+        } else if (obj instanceof Character) {
+
         	  return "\"" +     "\"";
-        } else if (obj instanceof Byte) {                               //byte型
-           // return ((byte) obj & 0xff) + "";
-        } else if (obj instanceof Short) {                              //short型
+        } else if (obj instanceof Byte) {
+
+        } else if (obj instanceof Short) {
             return ((Short) obj) + "";
-        } else if (obj instanceof Integer) {                            //整型
+        } else if (obj instanceof Integer) {
             return ((Integer) obj) + "";
-        } else if (obj instanceof Long) {                               //长整型
+        } else if (obj instanceof Long) {
             return ((Long) obj) + "";
-        } else if (obj instanceof Date) {                               //日期型
+        } else if (obj instanceof Date) {
             return date2json((Date) obj);
-        } else if (obj instanceof Float) {                              //浮点型
+        } else if (obj instanceof Float) {
             //return (float) obj + "";
         	  return "\"" +     "\"";
-        } else if (obj instanceof Double) {                             //双精度浮点型
+        } else if (obj instanceof Double) {
            // return (double) obj + "";
         	  return "\"" +     "\"";
-        } else if (obj instanceof Boolean) {                            //布尔型
+        } else if (obj instanceof Boolean) {
            // return (boolean) obj ? "true" : "false";
         	  return "\"" +     "\"";
-        } else if (obj instanceof Set) {                                //Set型
+        } else if (obj instanceof Set) {
             return set2json((Set) obj);
-        } else if (obj instanceof List) {                               //List型
+        } else if (obj instanceof List) {
             return list2json((List) obj);
-        } else if (obj instanceof Map) {                                //Map型
+        } else if (obj instanceof Map) {
             return map2json((Map) obj);
         } else {
-            StringBuffer sb = new StringBuffer(); //初始化返回字符串
+            StringBuffer sb = new StringBuffer();
             sb.append("{");
             int count = 0;
             Field[] fields = obj.getClass().getDeclaredFields();
             for (Field field : fields) {
                 field.setAccessible(true);
-                if ((field.getModifiers() & 8) == 8) continue;         //类中的静态常理不进行遍历
+                if ((field.getModifiers() & 8) == 8) continue;
                 if (count != 0) sb.append(",");
                 count++;
                 sb.append("\"");
                 sb.append(field.getName());
                 sb.append("\":");
                 try {
-//                    Log.i("ZF",field.get(obj).getClass().getName() + ":" + field.getModifiers());
-                    //判断类中成员变量类型是否为数组类型
+
                     if (field.getType().isArray()) {
                         Object o = field.get(obj);
                         if (o == null) {
                             sb.append("[]");
                         } else {
-                            //将数组类型通过toBoxArray方法进行自动装箱为指定的包装类型,
-                            // 然后通过Arrays工具类转化为List去处理
+
                             sb.append(obj2json(Arrays.asList(
                                     toBoxArray(o,field.getType().getComponentType())
                                     )));
                         }
                     } else {
-                        //为Float或Double包装类型时 且对象为NULL时会有异常的处理
+
                         if (field.get(obj) == null && ("java.lang.Double".equals(field.getType()
                                 .getName())) ||
                                 "java.lang.Float".equals(field.getType().getName())) {
@@ -148,17 +144,13 @@ public class JsonUtil {
     }
 
     /**
-     * 将JSon字符串转换为指定的(字节码文件)包装类
-     *
-     * @param jsonStr 待转换的JSon字符串
-     * @param clazz   待转换的包装类的Class字节码文件
-     * @return 返回的包装类的实例对象
+
      */
     public static Object json2obj(String jsonStr, Class clazz) {
         Object rtnObj = null;
 //        Log.i("ZF",clazz.getName());
         try {
-            //优先处理布尔型因布尔型不是包装类型,使用newInstance时会抛异常
+
             if ("boolean".equals(clazz.getName())) {                //boolean
                 return "true".equals(jsonStr) ? true : false;
             } else if ("char".equals(clazz.getName()) ||
@@ -183,31 +175,30 @@ public class JsonUtil {
                     "java.lang.Long".equals(clazz.getName())) {     //Long
                 return Long.parseLong(jsonStr);
             }
-            rtnObj = clazz.newInstance();                                       //包装类型的处理
-            if (rtnObj instanceof String) {                                     //字符型
+            rtnObj = clazz.newInstance();
+            if (rtnObj instanceof String) {
                 return removeqm(jsonStr);
-            } else if (rtnObj instanceof Date) {                                //日期型
+            } else if (rtnObj instanceof Date) {
                 return json2date(jsonStr);
-            } else {                                                            //实体对象
+            } else {
                 JSONObject jsonObject = new JSONObject(jsonStr);
                 Field[] fields = clazz.getDeclaredFields();
                 for (Field field : fields) {
                     field.setAccessible(true);
-                    if ((field.getModifiers() & 8) == 8) continue;         //类中的静态常理不进行遍历
-                    //截取对象中成员变量的Json字符串
+                    if ((field.getModifiers() & 8) == 8) continue;
+
                     String fieldStr = jsonObject.getString(field.getName());
 //                    Log.i("ZF", fieldStr + "/" + field.getType().getName());
-                    //判断是否为数组类型
+
                     if (field.getType().isArray()) {
                         List list = json2list(new ArrayList(), fieldStr, field.getType()
                                 .getComponentType());
-//                        field.set(rtnObj, tobytearray(list.toArray()));
-                        //通过toAssignArray方法转换为目标字节码文件的数组
+//
                         field.set(rtnObj,toAssignArray(list.toArray(),field.getType().getComponentType()));
                     } else if ("java.util.Map".equals(field.getType().getName()) ||
                             "java.util.HashMap".equals(field.getType().getName()) ||
                             "java.util.LinkedHashMap".equals(field.getType().getName()) ||
-                            "java.util.TreeMap".equals(field.getType().getName())) {//判断是否为Map
+                            "java.util.TreeMap".equals(field.getType().getName())) {
 //                        Log.i("ZF", "Here!");
                         Class keyClz = getGenericType(field, 0);
                         Class valClz = getGenericType(field, 1);
@@ -250,10 +241,7 @@ public class JsonUtil {
     }
 
     /**
-     * 将date转json字符串
-     *
-     * @param dd 待转换的Date实例对象
-     * @return 转换后的JSon字符串
+
      */
     private static String date2json(Date dd) {
         Calendar calendar = Calendar.getInstance();
@@ -274,10 +262,9 @@ public class JsonUtil {
     }
 
     /**
-     * Set 转json字符串
+
      *
-     * @param set 待转换的Set实例对象
-     * @return 转换后的JSon字符串
+
      */
     private static String set2json(Set set) {
         if (set.size() > 0) {
@@ -298,10 +285,7 @@ public class JsonUtil {
     }
 
     /**
-     * List 转json字符串
-     *
-     * @param list 待转换的List实例对象
-     * @return 转换后的JSon字符串
+
      */
     private static String list2json(List list) {
         if (list.size() > 0) {
@@ -322,10 +306,7 @@ public class JsonUtil {
     }
 
     /**
-     * Map 转json字符串
-     *
-     * @param map 待转换的map实例对象
-     * @return 转换后的JSon字符串
+
      */
     private static String map2json(Map map) {
         if (map.size() > 0) {
@@ -347,16 +328,10 @@ public class JsonUtil {
     }
 
     /**
-     * JSon字符串转Map的静态方法
-     *
-     * @param inputMap 输入Map
-     * @param jsonStr  转换JSon字符串
-     * @param keyClz   Map的键实例对象的字节码文件
-     * @param valClz   Map的值实例对象的字节码文件
-     * @return
+
      */
     private static Map json2map(Map inputMap, String jsonStr, Class keyClz, Class valClz) {
-//        Log.i("ZF",jsonStr);
+
         JSONObject jsonObject = null;
         Map rtnMap = inputMap;
         try {
@@ -365,7 +340,7 @@ public class JsonUtil {
                 Object keyObj = it.next();
                 Object valObj = jsonObject.getString(keyObj.toString());
                 keyObj = json2obj(keyObj.toString(), keyClz);
-//                Log.i("ZF",keyObj.toString() + ":" + valObj.toString());
+
                 valObj = json2obj(valObj.toString(), valClz);
                 rtnMap.put(keyObj, valObj);
             }
@@ -376,12 +351,7 @@ public class JsonUtil {
     }
 
     /**
-     * JSon字符串转Set的静态方法
-     *
-     * @param inputSet 输入的Set
-     * @param jsonStr  转换JSon字符串
-     * @param itmClz   Set节点的Class字节码文件
-     * @return
+
      */
     private static Set json2set(Set inputSet, String jsonStr, Class itmClz) {
         Set rtnSet = inputSet;
@@ -399,12 +369,7 @@ public class JsonUtil {
     }
 
     /**
-     * JSon字符串转List的静态方法
-     *
-     * @param inputList 输入的List
-     * @param jsonStr   转换JSon字符串
-     * @param itmClz    List节点的Class字节码文件
-     * @return
+
      */
     private static List json2list(List inputList, String jsonStr, Class itmClz) {
         List rtnList = inputList;
@@ -422,14 +387,7 @@ public class JsonUtil {
     }
 
     /**
-     * 获取Field中的List,Set,Map中的泛型的类型
-     *
-     * @param field 包装对象中的成员变量Field
-     * @param i     例如Map<String,Integer> i=0 返回java.lang.String字节码文件
-     *              i=1 返回java.lang.Integer字节码文件
-     * @return 取出的字节码文件
-     * @throws RuntimeException
-     * @throws ClassNotFoundException
+
      */
     public static Class getGenericType(Field field, Integer i)
             throws RuntimeException, ClassNotFoundException {
@@ -441,23 +399,21 @@ public class JsonUtil {
             if (i < types.length) {
                 return Class.forName(types[i].toString().replace("class ", ""));
             } else {
-                throw new RuntimeException("查询的类型数组超出边界!");
+                throw new RuntimeException("");
             }
         } else {
-            throw new RuntimeException("获取泛型类型出错");
+            throw new RuntimeException("");
         }
     }
 
     /**
-     * 移除首末位引号Quotation Mark
-     *
-     * @param inputStr
-     * @return
+
+
      */
     private static String removeqm(String inputStr) {
         StringBuffer sb = new StringBuffer();
         sb.append(inputStr);
-        if (sb.length() > 0) {                                          //去除首末的引号字符
+        if (sb.length() > 0) {
             if (sb.charAt(sb.length() - 1) == '\"') {
                 sb.deleteCharAt(sb.length() - 1);
             }
@@ -469,10 +425,7 @@ public class JsonUtil {
     }
 
     /**
-     * 转换为指定Class字节码的数组
-     * @param objs
-     * @param clazz
-     * @return
+
      */
     private static Object toAssignArray(Object objs,Class clazz) {
         int len = Array.getLength(objs);
@@ -483,12 +436,7 @@ public class JsonUtil {
         return array;
     }
 
-    /**
-     * 装箱为指定的包装对象
-     * @param objs
-     * @param clazz
-     * @return
-     */
+
     private static Object[] toBoxArray(Object objs,Class clazz) {
         int len = Array.getLength(objs);
         Object[] outObjs = new Object[len];

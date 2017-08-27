@@ -73,7 +73,7 @@ public class NetRestClient {
 	
 		
 		if (ConnectionChangeReceiver.connectionFla) {
-			System.out.println("进行提交操作");
+
 			Context context = null;
 			synclient.post(context, url, parms, "application/json", (ResponseHandlerInterface) responseHandler);
 		}
@@ -84,7 +84,7 @@ public class NetRestClient {
 	
 		
 		if (ConnectionChangeReceiver.connectionFla) {
-			System.out.println("进行提交操作");
+
 			client.post(getAbsoluteUrl(url), params, responseHandler);
 		}
 	}
@@ -94,7 +94,7 @@ public class NetRestClient {
 	
 		
 		if (ConnectionChangeReceiver.connectionFla) {
-			System.out.println("进行提交操作");
+
 			Context context = null;
 			client.post(context, getAbsoluteUrl(url), parms, "application/json", responseHandler);
 		}

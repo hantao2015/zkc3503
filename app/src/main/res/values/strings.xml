@@ -9,4 +9,6 @@
     <string name="netwrok_tishi">No network, please connect to the network</string>
     <string name="login">登入</string>
     <string name="downloaddata">下载数据</string>
+    <string name="loginsuccess">登入成功</string>
+    <string name="loginfailed">登入失败</string>
 </resources>

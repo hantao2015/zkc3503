@@ -2,85 +2,67 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\hantao\.android\build-cache\0ae45669e659c0d73697601ff183596be91a41e3\output\jars\libs\internal_impl-22.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-22.0.0_209e4775583d295420ea917d2c621f867f40e3d1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\github\andriodWebPos\AndriodPos\app\libs\android-async-http-1.4.5.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
-        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.5_ca9837bdf6a2edc7a61bba33bfe102f80ecdc1e8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\github\andriodWebPos\AndriodPos\app\libs\litepal-1.6.0-src.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="aee97844faabc21e3211eef0f9186efbfe5f596a">
-        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\2\litepal-1.6.0-src_d53ab50e4e050181d26d9d7e3c893a764f2799e5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hantao\.android\build-cache\0ae45669e659c0d73697601ff183596be91a41e3\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\charles\.android\build-cache\84ce586649a7a5105eee10ac3726e391fc209725\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2da177d52de8afd00411496ba7e661d406ca6efd\classes.dex" />
+        <dex dex="H:\github\andriodpos\andriodWebPos\AndriodPos\app\build\intermediates\pre-dexed\debug\classes_6f08c5a80af4e7e101c187be94c2a8432687e91e.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="H:\github\andriodpos\andriodWebPos\AndriodPos\app\libs\litepal-1.6.0-src.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9a76d3595ee671d9b2c157b0d46bcff5334ac6f0\classes.dex" />
+        sha1="aee97844faabc21e3211eef0f9186efbfe5f596a">
+        <dex dex="H:\github\andriodpos\andriodWebPos\AndriodPos\app\build\intermediates\pre-dexed\debug\litepal-1.6.0-src_36a782163d494b143f87df97d8ad5aa348c710c0.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\hantao\.android\build-cache\019c9a9bcb9a1276c2f58311043618f60893eb67\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\charles\.android\build-cache\84ce586649a7a5105eee10ac3726e391fc209725\output\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d806569ccd04d71c2b9441adf1f40afe2f060e07\classes.dex" />
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="H:\github\andriodpos\andriodWebPos\AndriodPos\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0_1114153e1bd8e38b38730150f0a09f888497fcc0.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\github\andriodWebPos\AndriodPos\app\libs\fastjson-1.1.37.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="cf6653799afcf3cef4db433bc75286302b43729c">
-        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\2\fastjson-1.1.37_bba08fbfcfd0ca9dfbd476643c9a2de775d3dd60\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hantao\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\charles\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
         sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-22.0.0_bd3149b8881505cbf888ea45216b63b8495288f4\classes.dex" />
+        <dex dex="H:\github\andriodpos\andriodWebPos\AndriodPos\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0_dc4e19f6beb748ec03863efb37727ac7e9f54d52.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="H:\github\andriodpos\andriodWebPos\AndriodPos\app\libs\fastjson-1.1.37.jar"
+        jumboMode="false"
         optimize="true"
         revision="26.0.1"
-        sha1="a3c7b66dc1b318fcf6cd89740c50aeac87290e1e">
-        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e4a0e97d7eed306292adba302dd50de7a2a3c63b\classes.dex" />
+        sha1="cf6653799afcf3cef4db433bc75286302b43729c">
+        <dex dex="H:\github\andriodpos\andriodWebPos\AndriodPos\app\build\intermediates\pre-dexed\debug\fastjson-1.1.37_617b56f7ed95da1c422ba8866e8be48bb59f2232.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\charles\.android\build-cache\87791939e6bb51535712b5cee89832c1b0ca0316\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="H:\github\andriodpos\andriodWebPos\AndriodPos\app\build\intermediates\pre-dexed\debug\classes_bbfa7d56b0ce1488f6c9ecd6f3ac12eeb80a66c1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="H:\github\andriodpos\andriodWebPos\AndriodPos\app\libs\android-async-http-1.4.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
+        <dex dex="H:\github\andriodpos\andriodWebPos\AndriodPos\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.5_0723e5979761b00f8493f2069c7d7aa5fa6b5294.jar" />
     </item>
 
 </items>

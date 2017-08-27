@@ -8,8 +8,16 @@
         "source": "C:\\Users\\hantao\\.android\\build-cache\\be720e90e31ac361b922e92303fff8348d5d2220\\output\\res\\drawable\\abc_spinner_ab_holo_light.xml"
     },
     {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
         "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_light.xml",
@@ -24,6 +32,10 @@
         "source": "C:\\Users\\hantao\\.android\\build-cache\\be720e90e31ac361b922e92303fff8348d5d2220\\output\\res\\drawable\\abc_ic_clear.xml"
     },
     {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_search_dropdown_dark.xml",
         "source": "C:\\Users\\hantao\\.android\\build-cache\\be720e90e31ac361b922e92303fff8348d5d2220\\output\\res\\drawable\\abc_search_dropdown_dark.xml"
     },
@@ -32,12 +44,24 @@
         "source": "C:\\Users\\hantao\\.android\\build-cache\\be720e90e31ac361b922e92303fff8348d5d2220\\output\\res\\drawable\\abc_textfield_searchview_holo_light.xml"
     },
     {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_right_holo_dark.xml",
         "source": "C:\\Users\\hantao\\.android\\build-cache\\be720e90e31ac361b922e92303fff8348d5d2220\\output\\res\\drawable\\abc_textfield_searchview_right_holo_dark.xml"
+    },
+    {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
@@ -48,12 +72,32 @@
         "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_ab_holo.xml",
@@ -64,8 +108,16 @@
         "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
         "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
@@ -74,6 +126,10 @@
     {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_holo_light.xml",
         "source": "C:\\Users\\hantao\\.android\\build-cache\\be720e90e31ac361b922e92303fff8348d5d2220\\output\\res\\drawable\\abc_ic_clear_holo_light.xml"
+    },
+    {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
@@ -96,6 +152,10 @@
         "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
@@ -104,8 +164,16 @@
         "source": "C:\\Users\\hantao\\.android\\build-cache\\019c9a9bcb9a1276c2f58311043618f60893eb67\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_searchview_holo_dark.xml",
         "source": "C:\\Users\\hantao\\.android\\build-cache\\be720e90e31ac361b922e92303fff8348d5d2220\\output\\res\\drawable\\abc_textfield_searchview_holo_dark.xml"
+    },
+    {
+        "merged": "H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\charles\\.android\\build-cache\\87791939e6bb51535712b5cee89832c1b0ca0316\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
         "merged": "C:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
