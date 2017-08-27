@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: H:\\github\\andriodpos\\andriodWebPos\\AndriodPos\\app\\src\\main\\aidl\\com\\smartdevice\\aidl\\IZKCService.aidl
+ * Original file: C:\\github\\andriodWebPos\\AndriodPos\\app\\src\\main\\aidl\\com\\smartdevice\\aidl\\IZKCService.aidl
  */
 package com.smartdevice.aidl;
 public interface IZKCService extends android.os.IInterface

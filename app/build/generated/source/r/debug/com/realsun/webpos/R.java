@@ -1357,16 +1357,18 @@ containing a value of this type.
         public static final int dropdown=0x7f0c001c;
         public static final int edit_query=0x7f0c0033;
         public static final int end=0x7f0c0014;
-        public static final int et_nfcdata=0x7f0c0046;
+        public static final int et_nfcdata=0x7f0c0048;
         public static final int expand_activities_button=0x7f0c0022;
         public static final int expanded_menu=0x7f0c0028;
+        public static final int getBusline=0x7f0c0044;
         public static final int home=0x7f0c0004;
         public static final int homeAsUp=0x7f0c000d;
         public static final int icon=0x7f0c0026;
         public static final int ifRoom=0x7f0c0018;
         public static final int image=0x7f0c0023;
+        public static final int inputCardno=0x7f0c0043;
         public static final int listMode=0x7f0c0009;
-        public static final int listView1=0x7f0c0043;
+        public static final int listView1=0x7f0c0045;
         public static final int list_item=0x7f0c0025;
         public static final int login=0x7f0c0041;
         public static final int middle=0x7f0c0015;
@@ -1394,10 +1396,10 @@ containing a value of this type.
         public static final int split_action_bar=0x7f0c0007;
         public static final int submit_area=0x7f0c003c;
         public static final int tabMode=0x7f0c000b;
-        public static final int textView1=0x7f0c0045;
-        public static final int textView2=0x7f0c0047;
+        public static final int textView1=0x7f0c0047;
+        public static final int textView2=0x7f0c0049;
         public static final int title=0x7f0c0027;
-        public static final int tv_nfc_content=0x7f0c0044;
+        public static final int tv_nfc_content=0x7f0c0046;
         public static final int up=0x7f0c0008;
         public static final int useLogo=0x7f0c0012;
         public static final int withText=0x7f0c001a;
@@ -1461,21 +1463,30 @@ containing a value of this type.
         public static final int abc_toolbar_collapse_description=0x7f06000f;
         public static final int app_name=0x7f060010;
         public static final int downloaddata=0x7f060011;
-        public static final int hello_world=0x7f060012;
-        public static final int login=0x7f060013;
-        public static final int loginfailed=0x7f060014;
-        public static final int loginsuccess=0x7f060015;
-        public static final int netwrok_tishi=0x7f060016;
-        public static final int put_card=0x7f060017;
-        public static final int service_bind_fail=0x7f060018;
-        public static final int service_bind_success=0x7f060019;
+        public static final int getBusline=0x7f060012;
+        public static final int hello_world=0x7f060013;
+        public static final int inputcardno=0x7f060014;
+        public static final int login=0x7f060015;
+        public static final int loginfailed=0x7f060016;
+        public static final int loginsuccess=0x7f060017;
+        public static final int netwrok_tishi=0x7f060018;
+        public static final int put_card=0x7f060019;
+        public static final int service_bind_fail=0x7f06001a;
+        public static final int service_bind_success=0x7f06001b;
     }
     public static final class style {
         public static final int Animation_AppCompat_DropDownUp=0x7f07006b;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
+
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        
          */
         public static final int AppBaseTheme=0x7f070003;
+        /**  All customizations that are NOT specific to a particular API-level can go here. 
+         */
         public static final int AppTheme=0x7f07006c;
         public static final int Base_Animation_AppCompat_DropDownUp=0x7f07006d;
         public static final int Base_TextAppearance_AppCompat=0x7f07002a;
