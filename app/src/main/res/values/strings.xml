@@ -4,7 +4,7 @@
     <string name="app_name">webpos</string>
     <string name="hello_world">Hello world!</string>
     <string name="put_card">请刷卡</string>
-  <string name="service_bind_success">AIDL service bind success</string>
+    <string name="service_bind_success">AIDL service bind success</string>
     <string name="service_bind_fail">AIDL service bind fail</string>
     <string name="netwrok_tishi">No network, please connect to the network</string>
     <string name="login">登入</string>
@@ -13,4 +13,5 @@
     <string name="loginfailed">登入失败</string>
     <string name="inputcardno">输入卡号</string>
     <string name="getBusline">查询班车线路</string>
+
 </resources>

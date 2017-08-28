@@ -3,21 +3,30 @@
 
     <item
         is-multidex="true"
-        jar="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9a76d3595ee671d9b2c157b0d46bcff5334ac6f0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\github\andriodWebPos\AndriodPos\app\libs\android-async-http-1.4.5.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881">
         <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\2\android-async-http-1.4.5_ca9837bdf6a2edc7a61bba33bfe102f80ecdc1e8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\github\andriodWebPos\AndriodPos\app\libs\litepal-1.6.0-src.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="aee97844faabc21e3211eef0f9186efbfe5f596a">
+        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\2\litepal-1.6.0-src_d53ab50e4e050181d26d9d7e3c893a764f2799e5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9a76d3595ee671d9b2c157b0d46bcff5334ac6f0\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -34,17 +43,8 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="e191cb228d3593ccafde451cf1710ce40343e460">
+        sha1="bd63df2c63570515fe819dc2cfe38c313da8cf48">
         <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_e4a0e97d7eed306292adba302dd50de7a2a3c63b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\github\andriodWebPos\AndriodPos\app\libs\litepal-1.6.0-src.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="aee97844faabc21e3211eef0f9186efbfe5f596a">
-        <dex dex="C:\github\andriodWebPos\AndriodPos\app\build\intermediates\transforms\dex\debug\folders\1000\2\litepal-1.6.0-src_d53ab50e4e050181d26d9d7e3c893a764f2799e5\classes.dex" />
     </item>
 
 </items>

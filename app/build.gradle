@@ -4,7 +4,7 @@ android {
     compileSdkVersion 22
     buildToolsVersion "26.0.1"
 
-   
+
 
     defaultConfig {
         applicationId "com.realsun.webpos"
@@ -21,10 +21,10 @@ android {
 }
 
 dependencies {
-    compile 'com.android.support:appcompat-v7:22.0.0'
-    compile 'com.android.support:support-v4:22.0.0'
+
 
     compile files('libs/android-async-http-1.4.5.jar')
     compile files('libs/fastjson-1.1.37.jar')
-    compile files('libs/litepal-1.6.0-src.jar')
+    compile files(
+            'libs/litepal-1.6.0-src.jar')
 }

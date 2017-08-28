@@ -1,4 +1,4 @@
-#Sun Aug 27 18:55:43 CST 2017
+#Mon Aug 28 10:46:28 CST 2017
 base.0=C\:\\github\\andriodWebPos\\AndriodPos\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9a76d3595ee671d9b2c157b0d46bcff5334ac6f0
 renamed.1=classes.dex
 renamed.0=classes2.dex

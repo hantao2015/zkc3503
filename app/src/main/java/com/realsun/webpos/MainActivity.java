@@ -12,8 +12,10 @@ import com.loopj.android.http.JsonHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 import com.realsun.finisar.bus.biz.BusLine;
 import com.realsun.finisar.bus.model.PersonBusLine;
+import com.realsun.utils.CardGuidNotify;
 import com.realsun.utils.CmsDatabase;
 import com.realsun.utils.ConnectionChangeReceiver;
+import com.realsun.utils.MifareCard;
 import com.realsun.utils.NetRestClient;
 import com.realsun.utils.WebClientConnection;
 import com.realsun.utils.WebClientConnectionPool;
@@ -100,6 +102,7 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 		downloadButton=(Button)findViewById(R.id.download);
 		getbuslineButton=(Button)findViewById(R.id.getBusline);
 		textCardno=(EditText)findViewById(R.id.inputCardno);
+		textCardno.setEnabled(false);
 		listView = (ListView) findViewById(R.id.listView1);
 		promt = (TextView) findViewById(R.id.promt);
 		// 获取默认的NFC控制器
@@ -189,15 +192,23 @@ public class MainActivity extends BaseActivity implements OnClickListener {
 	protected void onNewIntent(Intent intent) {
 		// TODO Auto-generated method stub
 		super.onNewIntent(intent);
-		// 得到是否检测到ACTION_TECH_DISCOVERED触发
-		// nfcAdapter.enableForegroundDispatch(this, pendingIntent, mFilters,
-		// mTechLists);
+
 		if (NfcAdapter.ACTION_TECH_DISCOVERED.equals(intent.getAction())) {
 			// 处理该intent
-			processIntent(intent);
+			//processIntent(intent);
+			MifareCard.getCardGuid(intent, new CardGuidNotify() {
+				@Override
+				public void getCardGuid(long cardno) {
+					//showToast("cardno:"+String.valueOf(cardno));
+					cardIncoming(String.valueOf(cardno));
+				}
+			});
 			intents = intent;
 		}
 
+	}
+	private void cardIncoming(String cardno){
+		textCardno.setText(cardno);
 	}
 	class ListLongClick implements OnItemLongClickListener {
 
